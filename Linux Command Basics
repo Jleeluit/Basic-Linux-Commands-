@@ -1,0 +1,29 @@
+Basic Linux Commands for Beginners
+File and Directory Navigation
+pwd: Displays the current working directory
+ls: Lists files and directories within the current directory
+cd: Changes the current directory (e.g., cd documents)
+mkdir: Creates a new directory (e.g., mkdir new_folder)
+rmdir: Removes an empty directory (e.g., rmdir new_folder)
+cp: Copies files (e.g., cp file1.txt file2.txt)
+mv: Moves or renames files (e.g., mv file1.txt new_folder/file2.txt)
+File and Text Manipulation
+cat: Displays the entire contents of a file (e.g., cat file1.txt)
+head: Shows the first few lines of a file (e.g., head file1.txt)
+tail: Shows the last few lines of a file (e.g., tail file1.txt)
+less: Displays file contents one page at a time (e.g., less file1.txt)
+grep: Searches for patterns within a file (e.g., grep "error" file1.txt)
+sed: Edits text within a file (e.g., sed 's/error/bug/g' file1.txt)
+System Information
+whoami: Displays the current user's username
+hostname: Displays the computer's hostname
+date: Displays the current date and time
+free: Shows available memory information
+df: Displays disk usage details
+Other Useful Commands
+clear: Clears the terminal screen
+man: Accesses a command's manual page (e.g., man ls)
+sudo: Executes commands with root privileges (use with caution)
+These commands are case-sensitive (e.g., "cd" is different from "CD").
+For further guidance, utilize the "man" command (e.g., man ls).
+Exercise caution with "sudo" as it grants administrative rights.
